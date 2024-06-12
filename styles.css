@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("3.png");
+    background-size: cover;
+}
+
+.dobox {
+    max-width: 500px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 21px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(223, 211, 211, 0.1);
+    margin: 0 auto;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    border: ghostwhite;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Arial, sans-serif; 
+}
+
+
+.complete {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.remove {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.remove:hover {
+    background-color: #c82333;
+}
+
+.colo {
+    color: #007bff;
+    
+}
+.about {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 35rem;
+    margin-right: 35rem;
+    font-size: 40px;
+    color: whitesmoke;
+    
+}
+
+.checkbox {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #888;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+.checkbox.checked {
+    background-color: green;
+    border-color: green;
+}
+
+.checkbox.checked::after {
+    content: '✔';
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+}
+
+.trove {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px; 
+    height: auto; 
+    z-index: 1;
+}
